@@ -1,0 +1,8 @@
+#CausalSequence {
+    height: 350px;
+    /* background-color: yellow; */
+}
+
+#CausalSequence > h3 {
+    margin-left: 5px;
+}

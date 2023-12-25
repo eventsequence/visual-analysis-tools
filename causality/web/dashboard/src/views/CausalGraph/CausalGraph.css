@@ -1,0 +1,15 @@
+#CausalGraph {
+    height: 450px;
+    /* background-color: green; */
+}
+
+#Diagnose {
+    background-color: #eee;
+    margin: 5px;
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 400px;
+}
