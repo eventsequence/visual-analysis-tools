@@ -1,0 +1,42 @@
+Epoch:0, Train_cost:1.043706, Validation_AUC:0.452380
+Currently the best validation AUC found. Test AUC:0.422222, 0.427159at epoch:0
+Epoch:1, Train_cost:0.740369, Validation_AUC:0.593557
+Currently the best validation AUC found. Test AUC:0.526095, 0.385974at epoch:1
+Epoch:2, Train_cost:0.625321, Validation_AUC:0.683107
+Currently the best validation AUC found. Test AUC:0.603883, 0.310417at epoch:2
+Epoch:3, Train_cost:0.548670, Validation_AUC:0.723566
+Currently the best validation AUC found. Test AUC:0.639414, 0.203744at epoch:3
+Epoch:4, Train_cost:0.494351, Validation_AUC:0.731654
+Currently the best validation AUC found. Test AUC:0.646332, 0.162475at epoch:4
+Epoch:5, Train_cost:0.453135, Validation_AUC:0.739392
+Currently the best validation AUC found. Test AUC:0.655656, 0.128711at epoch:5
+Epoch:6, Train_cost:0.419317, Validation_AUC:0.745197
+Currently the best validation AUC found. Test AUC:0.662006, 0.106759at epoch:6
+Epoch:7, Train_cost:0.391510, Validation_AUC:0.749607
+Currently the best validation AUC found. Test AUC:0.663990, 0.114037at epoch:7
+Epoch:8, Train_cost:0.366056, Validation_AUC:0.756238
+Currently the best validation AUC found. Test AUC:0.667070, 0.110203at epoch:8
+Epoch:9, Train_cost:0.348225, Validation_AUC:0.758997
+Currently the best validation AUC found. Test AUC:0.671435, 0.103923at epoch:9
+The best validation & test AUC:0.758997, 0.671435 at epoch:9
+Epoch:0, Train_cost:1.023456, Validation_AUC:0.470883
+Currently the best validation AUC found. Test AUC:0.435317, 0.420960at epoch:0
+Epoch:1, Train_cost:0.722766, Validation_AUC:0.614088
+Currently the best validation AUC found. Test AUC:0.545809, 0.372764at epoch:1
+Epoch:2, Train_cost:0.618382, Validation_AUC:0.699222
+Currently the best validation AUC found. Test AUC:0.618173, 0.270669at epoch:2
+Epoch:3, Train_cost:0.546707, Validation_AUC:0.718017
+Currently the best validation AUC found. Test AUC:0.640872, 0.198394at epoch:3
+Epoch:4, Train_cost:0.490763, Validation_AUC:0.727600
+Currently the best validation AUC found. Test AUC:0.649324, 0.148591at epoch:4
+Epoch:5, Train_cost:0.451499, Validation_AUC:0.737119
+Currently the best validation AUC found. Test AUC:0.657511, 0.132808at epoch:5
+Epoch:6, Train_cost:0.417498, Validation_AUC:0.741430
+Currently the best validation AUC found. Test AUC:0.661588, 0.114108at epoch:6
+Epoch:7, Train_cost:0.390413, Validation_AUC:0.748909
+Currently the best validation AUC found. Test AUC:0.664415, 0.108979at epoch:7
+Epoch:8, Train_cost:0.366517, Validation_AUC:0.752655
+Currently the best validation AUC found. Test AUC:0.666950, 0.106958at epoch:8
+Epoch:9, Train_cost:0.348606, Validation_AUC:0.757313
+Currently the best validation AUC found. Test AUC:0.667551, 0.103469at epoch:9
+The best validation & test AUC:0.757313, 0.667551 at epoch:9
