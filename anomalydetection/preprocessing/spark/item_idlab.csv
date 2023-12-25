@@ -1,0 +1,247 @@
+ITEMID,LABEL,ABBREVIATION,DBSOURCE,LINKSTO,CATEGORY
+225166,Potassium Chloride,Potassium Chloride - KCL,metavision,inputevents_mv,Medications
+225167,Hydrochloric Acid - HCL,Hydrochloric Acid - HCL,metavision,inputevents_mv,Medications
+227073,Anion gap,Anion gap,metavision,chartevents,Labs
+221261,Abciximab (Reopro),Abciximab (Reopro),metavision,inputevents_mv,Medications
+221282,Adenosine,Adenosine,metavision,inputevents_mv,Medications
+221289,Epinephrine,Epinephrine,metavision,inputevents_mv,Medications
+221319,Alteplase (TPA),Alteplase (TPA),metavision,inputevents_mv,Medications
+221342,Aminophylline,Aminophylline,metavision,inputevents_mv,Medications
+221347,Amiodarone,Amiodarone,metavision,inputevents_mv,Medications
+221385,Lorazepam (Ativan),Lorazepam (Ativan),metavision,inputevents_mv,Medications
+221393,Atropine,Atropine,metavision,inputevents_mv,Medications
+221429,Esmolol,Esmolol,metavision,inputevents_mv,Medications
+221456,Calcium Gluconate,Calcium Gluconate,metavision,inputevents_mv,Medications
+221468,Diltiazem,Diltiazem,metavision,inputevents_mv,Medications
+221555,Cisatracurium,Cisatracurium,metavision,inputevents_mv,Medications
+221623,Diazepam (Valium),Diazepam (Valium),metavision,inputevents_mv,Medications
+221653,Dobutamine,Dobutamine,metavision,inputevents_mv,Medications
+221662,Dopamine,Dopamine,metavision,inputevents_mv,Medications
+221668,Midazolam (Versed),Midazolam (Versed),metavision,inputevents_mv,Medications
+221689,Drotrecogin (Xigris),Drotrecogin (Xigris),metavision,inputevents_mv,Medications
+221712,Ketamine,Ketamine,metavision,inputevents_mv,Medications
+221744,Fentanyl,Fentanyl,metavision,inputevents_mv,Medications
+220995,Sodium Bicarbonate 8.4%,Sodium Bicarbonate 8.4%,metavision,inputevents_mv,Medications
+228315,Acetaminophen-IV,Acetaminophen-IV,metavision,inputevents_mv,Medications
+228316,Keppra,Keppra,metavision,inputevents_mv,Medications
+228317,Calcium Gluconate (Bolus),Calcium Gluconate (Bolus),metavision,inputevents_mv,Medications
+228339,Amiodarone 600/500,Amiodarone 600/500,metavision,inputevents_mv,Medications
+228340,Furosemide (Lasix) 500/100,Furosemide (Lasix) 500/100,metavision,inputevents_mv,Medications
+221749,Phenylephrine,Phenylephrine,metavision,inputevents_mv,Medications
+221794,Furosemide (Lasix),Furosemide (Lasix),metavision,inputevents_mv,Medications
+221824,Haloperidol (Haldol),Haloperidol (Haldol),metavision,inputevents_mv,Medications
+221828,Hydralazine,Hydralazine,metavision,inputevents_mv,Medications
+221833,Hydromorphone (Dilaudid),Hydromorphone (Dilaudid),metavision,inputevents_mv,Medications
+221892,Lepirudin,Lepirudin,metavision,inputevents_mv,Medications
+221906,Norepinephrine,Norepinephrine,metavision,inputevents_mv,Medications
+221986,Milrinone,Milrinone,metavision,inputevents_mv,Medications
+222011,Magnesium Sulfate,Magnesium Sulfate,metavision,inputevents_mv,Medications
+222021,Naloxone (Narcan),Naloxone (Narcan),metavision,inputevents_mv,Medications
+222037,Nesiritide,Nesiritide,metavision,inputevents_mv,Medications
+222042,Nicardipine,Nicardipine,metavision,inputevents_mv,Medications
+222051,Nitroprusside,Nitroprusside,metavision,inputevents_mv,Medications
+222056,Nitroglycerin,Nitroglycerin,metavision,inputevents_mv,Medications
+222062,Vecuronium,Vecuronium,metavision,inputevents_mv,Medications
+222151,Procainamide,Procainamide,metavision,inputevents_mv,Medications
+222168,Propofol,Propofol,metavision,inputevents_mv,Medications
+222315,Vasopressin,Vasopressin,metavision,inputevents_mv,Medications
+222318,Verapamil,Verapamil,metavision,inputevents_mv,Medications
+223257,Insulin - 70/30,Insulin - 70/30,metavision,inputevents_mv,Medications
+223258,Insulin - Regular,Insulin - Regular,metavision,inputevents_mv,Medications
+223259,Insulin - NPH,Insulin - NPH,metavision,inputevents_mv,Medications
+223260,Insulin - Glargine,Insulin - Glargine,metavision,inputevents_mv,Medications
+223261,Insulin - Humalog 75/25,Insulin - Humalog 75/25,metavision,inputevents_mv,Medications
+223262,Insulin - Humalog,Insulin - Humalog,metavision,inputevents_mv,Medications
+223679,TCO2 (calc) Venous,TCO2 (calc) Venous,metavision,chartevents,Labs
+228385,Chloride (serum) (soft),Chloride (serum) (soft),metavision,chartevents,Labs
+228386,Chloride (whole blood) (soft),Chloride (whole blood) (soft),metavision,chartevents,Labs
+228388,Glucose (whole blood) (soft),Glucose (whole blood) (soft),metavision,chartevents,Labs
+228389,Sodium (serum) (soft),Sodium (serum) (soft),metavision,chartevents,Labs
+228390,Sodium (whole blood) (soft),Sodium (whole blood) (soft),metavision,chartevents,Labs
+228391,Ammonia (SOFT),Ammonia (SOFT),metavision,chartevents,Labs
+225906,Enoxaparin (Lovenox),Enoxaparin (Lovenox),metavision,inputevents_mv,Medications
+225907,Famotidine (Pepcid),Famotidine (Pepcid),metavision,inputevents_mv,Medications
+225908,Fondaparinux,Fondaparinux,metavision,inputevents_mv,Medications
+225909,Lansoprazole (Prevacid),Lansoprazole (Prevacid),metavision,inputevents_mv,Medications
+225910,Pantoprazole (Protonix),Pantoprazole (Protonix),metavision,inputevents_mv,Medications
+225911,Ranitidine (Prophylaxis),Ranitidine (Prophylaxis),metavision,inputevents_mv,Medications
+225912,Carafate (Sucralfate),Carafate (Sucralfate),metavision,inputevents_mv,Medications
+225913,Coumadin (Warfarin),Coumadin (Warfarin),metavision,inputevents_mv,Medications
+227516,PO2 (Mixed Venous),PO2 (Mixed Venous),metavision,chartevents,Labs
+227520,Methadone Hydrochloride,Methadone Hydrochloride,metavision,inputevents_mv,Medications
+227521,KCL Bolus),KCL (Bolus),metavision,chartevents,Medications
+227522,KCL (Bolus),KCL (Bolus),metavision,inputevents_mv,Medications
+227523,Magnesium Sulfate (Bolus),Magnesium Sulfate (Bolus),metavision,inputevents_mv,Medications
+227524,Magnesium Sulfate (OB-GYN),Magnesium Sulfate (OB-GYN),metavision,inputevents_mv,Medications
+227525,Calcium Gluconate (CRRT),Calcium Gluconate (CRRT),metavision,inputevents_mv,Medications
+227429,Troponin-T,Troponin-T,metavision,chartevents,Labs
+227440,Digoxin,Digoxin,metavision,chartevents,Labs
+227441,LDL measured,LDL measured,metavision,chartevents,Labs
+227442,Potassium (serum),Potassium (serum),metavision,chartevents,Labs
+227443,HCO3 (serum),HCO3 (serum),metavision,chartevents,Labs
+227444,C Reactive Protein (CRP),C Reactive Protein (CRP),metavision,chartevents,Labs
+227445,CK-MB,CK-MB,metavision,chartevents,Labs
+227446,Brain Natiuretic Peptide (BNP),Brain Natiuretic Peptide (BNP),metavision,chartevents,Labs
+227447,Gentamicin (Random),Gentamicin (Random),metavision,chartevents,Labs
+227448,Gentamicin (Peak),Gentamicin (Peak),metavision,chartevents,Labs
+227449,Gentamicin (Trough),Gentamicin (Trough),metavision,chartevents,Labs
+227450,Tobramycin (Peak),Tobramycin (Peak),metavision,chartevents,Labs
+227451,Tobramycin (Random),Tobramycin (Random),metavision,chartevents,Labs
+227452,Tobramycin (Trough),Tobramycin (Trough),metavision,chartevents,Labs
+227453,Vancomycin (Peak),Vancomycin (Peak),metavision,chartevents,Labs
+227454,Vancomycin (Random),Vancomycin (Random),metavision,chartevents,Labs
+227455,Vancomycin (Trough),Vancomycin (Trough),metavision,chartevents,Labs
+227456,Albumin,Albumin,metavision,chartevents,Labs
+227457,Platelet Count,Platelet Count,metavision,chartevents,Labs
+227526,Citrate,Citrate,metavision,inputevents_mv,Medications
+227527,ADA-A (500ml),ADA-A (500ml),metavision,chartevents,Medications
+227528,ACD-A Citrate (500ml),ACD-A Citrate (500ml),metavision,inputevents_mv,Medications
+227529,ACD-A Citrate (1000ml),ACD-A Citrate (1000ml),metavision,inputevents_mv,Medications
+225832,Folic Acid,Folic Acid,metavision,inputevents_mv,Medications
+225833,Thiamine,Thiamine,metavision,inputevents_mv,Medications
+225834,K Phos,K Phos,metavision,inputevents_mv,Medications
+225835,Na Phos,Na Phos,metavision,inputevents_mv,Medications
+227531,Mannitol,Mannitol,metavision,inputevents_mv,Medications
+227534,Cyclosporine,Cyclosporine,metavision,inputevents_mv,Medications
+227535,Vitamin K (Phytonadione),Vitamin K (Phytonadione),metavision,inputevents_mv,Medications
+227536,KCl (CRRT),KCl (CRRT),metavision,inputevents_mv,Medications
+227458,Procan,Procan,metavision,chartevents,Labs
+227459,Procan Napa,Procan Napa,metavision,chartevents,Labs
+227460,Phenobarbital,Phenobarbital,metavision,chartevents,Labs
+227461,Phenytoin (Dilantin),Phenytoin (Dilantin),metavision,chartevents,Labs
+227462,FK506,FK506,metavision,chartevents,Labs
+227463,Cortisol,Cortisol,metavision,chartevents,Labs
+227464,Potassium (whole blood),Potassium (whole blood),metavision,chartevents,Labs
+227465,Prothrombin time,PT,metavision,chartevents,Labs
+227466,PTT,PTT,metavision,chartevents,Labs
+227467,INR,INR,metavision,chartevents,Labs
+227468,Fibrinogen,Fibrinogen,metavision,chartevents,Labs
+227469,Thrombin,Thrombin,metavision,chartevents,Labs
+227470,Sed Rate,Sed Rate,metavision,chartevents,Labs
+227471,Specific Gravity (urine),Specific Gravity (urine),metavision,chartevents,Labs
+225972,Fentanyl (Push),Fentanyl (Push),metavision,inputevents_mv,Medications
+225612,Alkaline Phosphate,Alkaline Phosphate,metavision,chartevents,Labs
+225622,ZBrain Natiuretic Peptide (BNP),ZBrain Natiuretic Peptide (BNP),metavision,chartevents,Labs
+225624,BUN,BUN,metavision,chartevents,Labs
+225625,Calcium non-ionized,Calcium non-ionized,metavision,chartevents,Labs
+225628,CK-MB fraction (%),CK-MB fraction (%),metavision,chartevents,Labs
+225632,ZCK-MB,ZCK-MB,metavision,chartevents,Labs
+225634,CK (CPK),CK (CPK),metavision,chartevents,Labs
+225636,D-Dimer,D-Dimer,metavision,chartevents,Labs
+225637,Differential-Atyps,Differential-Atyps,metavision,chartevents,Labs
+225638,Differential-Bands,Differential-Bands,metavision,chartevents,Labs
+225639,Differential-Basos,Differential-Basos,metavision,chartevents,Labs
+225640,Differential-Eos,Differential-Eos,metavision,chartevents,Labs
+225641,Differential-Lymphs,Differential-Lymphs,metavision,chartevents,Labs
+225642,Differential-Monos,Differential-Monos,metavision,chartevents,Labs
+225643,Differential-Neuts,Differential-Neuts,metavision,chartevents,Labs
+225644,ZDigoxin,ZDigoxin,metavision,chartevents,Labs
+225645,ZPhenytoin (Dilantin),ZPhenytoin (Dilantin),metavision,chartevents,Labs
+225651,Direct Bilirubin,Direct Bilirubin,metavision,chartevents,Labs
+225655,ZFK506,ZFK506,metavision,chartevents,Labs
+225656,Freeform Chemistry,Freeform Chemistry,metavision,chartevents,Labs
+225657,Freeform Coags,Freeform Coags,metavision,chartevents,Labs
+225658,Freeform Drug Level,Freeform Drug Level,metavision,chartevents,Labs
+225659,Freeform Enzymes,Freeform Enzymes,metavision,chartevents,Labs
+225660,Freeform Hematology,Freeform Hematology,metavision,chartevents,Labs
+225662,ZGentamicin (Peak),ZGentamicin (Peak),metavision,chartevents,Labs
+225664,Glucose finger stick,Glucose finger stick,metavision,chartevents,Labs
+225667,Ionized Calcium,Ionized Calcium,metavision,chartevents,Labs
+225668,Lactic Acid,Lactic Acid,metavision,chartevents,Labs
+225670,ZLDL measured,ZLDL measured,metavision,chartevents,Labs
+225671,LDL calculated,LDL calculated,metavision,chartevents,Labs
+225672,Lipase,Lipase,metavision,chartevents,Labs
+225674,Mixed Venous O2% Sat,Mixed Venous O2% Sat,metavision,chartevents,Labs
+225676,ZPhenobarbital,ZPhenobarbital,metavision,chartevents,Labs
+225677,Phosphorous,Phosphorous,metavision,chartevents,Labs
+225678,ZPlatelet Count,ZPlatelet Count,metavision,chartevents,Labs
+225679,ZProcan,ZProcan,metavision,chartevents,Labs
+225680,ZProcan Napa,ZProcan Napa,metavision,chartevents,Labs
+225683,ZSed Rate,ZSed Rate,metavision,chartevents,Labs
+225684,Serum Osmolality,Serum Osmolality,metavision,chartevents,Labs
+225685,Thiocynate,Thiocynate,metavision,chartevents,Labs
+225686,ZThrombin,ZThrombin,metavision,chartevents,Labs
+225688,ZTobramycin (Peak),ZTobramycin (Peak),metavision,chartevents,Labs
+225690,Total Bilirubin,Total Bilirubin,metavision,chartevents,Labs
+225692,Total Granulocyte Count (TGC),Total Granulocyte Count (TGC),metavision,chartevents,Labs
+225693,Triglyceride,Triglyceride,metavision,chartevents,Labs
+225694,ZTropinin - T,ZTropinin - T,metavision,chartevents,Labs
+225695,Uric Acid,Uric Acid,metavision,chartevents,Labs
+225697,ZVancomycin (Peak),ZVancomycin (Peak),metavision,chartevents,Labs
+225698,TCO2 (calc) Arterial,TCO2 (calc) Arterial,metavision,chartevents,Labs
+225973,Meperidine (Demerol),Meperidine (Demerol),metavision,inputevents_mv,Medications
+225974,Metoprolol,Metoprolol,metavision,inputevents_mv,Medications
+225975,Heparin Sodium (Prophylaxis),Heparin Sodium (Prophylaxis),metavision,inputevents_mv,Medications
+227685,ZCentral Venous O2% Sat,ZCentral Venous O2% Sat,metavision,chartevents,Labs
+227686,Central Venous O2% Sat,Central Venous O2% Sat,metavision,chartevents,Labs
+227689,Dilantin,Dilantin,metavision,inputevents_mv,Medications
+227690,Fosphenytoin,Fosphenytoin,metavision,inputevents_mv,Medications
+227692,Isuprel,Isuprel,metavision,inputevents_mv,Medications
+227694,Omeprazole (Prilosec),Omeprazole (Prilosec),metavision,inputevents_mv,Medications
+228239,Phenytoin (Free) (SOFT),Phenytoin (Free) (SOFT),metavision,chartevents,Labs
+228240,D-Dimer (SOFT),D-Dimer (SOFT),metavision,chartevents,Labs
+228241,Ammonia (Soft)_OLD_1,Ammonia (Soft)_OLD_1,metavision,chartevents,Labs
+228242,Pt. Temperature (BG) (SOFT),Pt. Temperature (BG) (SOFT),metavision,chartevents,Labs
+228243,PH (SOFT),PH (SOFT),metavision,chartevents,Labs
+220507,Activated Clotting Time,ACT,metavision,chartevents,Labs
+220541,ZFibrinogen,ZFibrinogen,metavision,chartevents,Labs
+220545,Hematocrit (serum),Hematocrit (serum),metavision,chartevents,Labs
+220546,WBC,WBC,metavision,chartevents,Labs
+220560,ZProthrombin time,ZPT,metavision,chartevents,Labs
+220561,ZINR,ZINR,metavision,chartevents,Labs
+220562,ZPTT,ZPTT,metavision,chartevents,Labs
+220574,ZAlbumin,ZAlbumin,metavision,chartevents,Labs
+220580,Ammonia,Ammonia,metavision,chartevents,Labs
+220581,Amylase,Amylase,metavision,chartevents,Labs
+220587,AST,AST,metavision,chartevents,Labs
+220602,Chloride (serum),Chloride (serum),metavision,chartevents,Labs
+220603,Cholesterol,Cholesterol,metavision,chartevents,Labs
+220611,ZCortisol,ZCortisol,metavision,chartevents,Labs
+220612,ZC Reactive Protein (CRP),ZC Reaction Protein (CRP),metavision,chartevents,Labs
+220615,Creatinine,Creatinine,metavision,chartevents,Labs
+220621,Glucose (serum),Glucose (serum),metavision,chartevents,Labs
+220624,HDL,HDL,metavision,chartevents,Labs
+220632,LDH,LDH,metavision,chartevents,Labs
+220635,Magnesium,Magnesium,metavision,chartevents,Labs
+220640,ZPotassium (serum),ZPotassium (serum),metavision,chartevents,Labs
+220644,ALT,ALT,metavision,chartevents,Labs
+220645,Sodium (serum),Sodium (serum),metavision,chartevents,Labs
+220650,Total Protein,Total Protein,metavision,chartevents,Labs
+220734,PH (dipstick),PH (dipstick),metavision,chartevents,Labs
+220799,ZSpecific Gravity (urine),ZSpecific gravity (urine),metavision,chartevents,Labs
+220224,Arterial O2 pressure,PO2 (Arterial),metavision,chartevents,Labs
+220227,Arterial O2 Saturation,SaO2,metavision,chartevents,Labs
+220228,Hemoglobin,Hemoglobin,metavision,chartevents,Labs
+220235,Arterial CO2 Pressure,PCO2 (Arterial),metavision,chartevents,Labs
+220274,PH (Venous),PH (Venous),metavision,chartevents,Labs
+224826,ZHCO3 (serum),ZHCO3 (serum),metavision,chartevents,Labs
+224828,Arterial Base Excess,Arterial Base Excess,metavision,chartevents,Labs
+226062,Venous CO2 Pressure,PCO2 (Venous),metavision,chartevents,Labs
+226063,Venous O2 Pressure,PO2 (Venous),metavision,chartevents,Labs
+226064,ZVancomycin (Trough),ZVancomycin (Trough),metavision,chartevents,Labs
+226065,ZVancomycin (Random),ZVancomycin (Random),metavision,chartevents,Labs
+226066,ZTobramycin (Trough),ZTobramycin (Trough),metavision,chartevents,Labs
+226067,ZTobramycin (Random),ZTobramycin (Random),metavision,chartevents,Labs
+226068,ZGentamicin (Trough),ZGentamicin (Trough),metavision,chartevents,Labs
+226069,ZGentamicin (Random),ZGentamicin (Random),metavision,chartevents,Labs
+225942,Fentanyl (Concentrate),Fentanyl (Concentrate),metavision,inputevents_mv,Medications
+225945,Lidocaine,Lidocaine,metavision,inputevents_mv,Medications
+226482,Blood Clot Outdates,Blood Clot Outdates,metavision,datetimeevents,Labs
+226504,Phenytoin (Free),Phenytoin (Free),metavision,chartevents,Labs
+226534,Sodium (whole blood),Sodium (whole blood),metavision,chartevents,Labs
+226535,ZPotassium (whole blood),ZPotassium (whole blood),metavision,chartevents,Labs
+226536,Chloride (whole blood),Chloride (whole blood),metavision,chartevents,Labs
+226537,Glucose (whole blood),Glucose (whole blood),metavision,chartevents,Labs
+226540,Hematocrit (whole blood - calc),Hematocrit (whole blood - calc),metavision,chartevents,Labs
+226541,ScvO2 Central Venous O2% Sat,ScvO2 Central Venous O2% Sat,metavision,chartevents,Labs
+225147,Argatroban,Argatroban,metavision,inputevents_mv,Medications
+225148,Bivalirudin (Angiomax),Bivalirudin (Angiomax),metavision,inputevents_mv,Medications
+225150,Dexmedetomidine (Precedex),Dexmedetomidine (Precedex),metavision,inputevents_mv,Medications
+225151,Eptifibatide (Integrilin),Eptifibatide (Integrilin),metavision,inputevents_mv,Medications
+225152,Heparin Sodium,Heparin Sodium,metavision,inputevents_mv,Medications
+225153,Labetalol,Labetalol,metavision,inputevents_mv,Medications
+225154,Morphine Sulfate,Morphine Sulfate,metavision,inputevents_mv,Medications
+225155,Octreotide,Octreotide,metavision,inputevents_mv,Medications
+225156,Pentobarbital,Pentobarbital,metavision,inputevents_mv,Medications
+225157,Tirofiban (Aggrastat),Tirofiban (Aggrastat),metavision,inputevents_mv,Medications
+223830,PH (Arterial),PH (Arterial),metavision,chartevents,Labs

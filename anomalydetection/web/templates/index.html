@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EventThread3</title>
+    <!-- vendor -->
+    <link type="text/css" href="{{ url_for('static', filename='vendor/jquery-ui/jquery-ui.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static', filename='vendor/d3-tip.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static', filename='vendor/contextmenu/jquery.contextmenu.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static', filename='vendor/coral/coral.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static', filename='vendor/toggle-switch.css') }}" rel="stylesheet">
+    <!-- app -->
+    <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+
+    <div style="margin: 0 auto; padding: 5px; width:1500px" class="app" >
+        <div class="side-content">
+            <div id="overview" class="view" class="tabs-header">
+                <ul>
+                    <li><a href="#tsne_div">Overview</a></li>
+                    <li><a href="#stat_div">Similarity</a></li>
+                </ul>
+                <div class="view-body" id="tsne_div"></div>
+                <div class="view-body" id="stat_div"></div>
+            </div>
+            <div id="profile_div" class="view">
+                <div class="view-header">
+                    <label>Anomalous Record</label>
+                    <label class="dual_switch">
+                        <input type="checkbox">
+                        <span class="dual_slider">
+                            <img src="../static/img/person-icon.png" class="switch-icon"style="height:18px ; margin-left: 4px; margin-top:2px">
+                            <img src="../static/img/rawseq.png" class="switch-icon"style="height:16px; margin-left: 1px; margin-top:2px">
+                        </span>
+                    </label>
+                </div>
+                <div id="profile" class="view-body">
+                    <div id="profile_pic"></div>
+                    <div id="profile_content">
+                        <ul id="profile_icons" style="display:none">
+                            <li>
+                                <img src="../static/img/person.png" alt="name" class="pro-icon">
+                                <label class="pro-label" id="name_label"></label>
+                            </li>
+                            <li>
+                                <img src="../static/img/gender.png" alt="name" class="pro-icon">
+                                <label class="pro-label" id="gender_label"></label>
+                            </li>
+                            <li>
+                                <img src="../static/img/number.png" alt="name" class="pro-icon">
+                                <label class="pro-label" id="id_label"></label>
+                            </li>
+                            <li>
+                                <img src="../static/img/cake.png" alt="name" class="pro-icon">
+                                <label class="pro-label" id="age_label"></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="plist_div" class="view" class="ui-widget">
+                <div class="view-header" id="control_lab">
+                    <label>Similar Record List</label>
+                    <label id="rnum">(0)</label>
+                </div>
+                <div id="simlist" class="view-body"></div>
+            </div>
+        </div>
+
+       <!--  <div class="main-content">
+            <div id="focal_div" class="view">
+                <div class="view-header">
+                    <label>Anomalous Sequence</label>
+                </div>
+                <div id="focal" class="view-body"></div>
+            </div>
+
+            <div id="mean_div" class="view">
+                <div class="view-header">
+                    <label>Mean Sequence</label>
+                </div>
+                <div id="mean" class="view-body"></div>
+            </div>
+
+            <div id="comp_div" class="view">
+                <div class="view-header">
+                    <label>Similar Sequences</label>
+                </div>
+                <div id="comp" class="view-body"></div>
+            </div>
+        </div> -->
+
+        <div class="main-content">
+            <div id="seq_div" class="view">
+                <div class="view-header">
+                    <label>Comparison View</label>
+                    <div class="switch-toggle switch-3 switch-candy" id="tri_switch">
+                        <input id="seq" name="state-d" type="radio" checked="">
+                        <label for="seq" onclick="">
+                            <img src="../static/img/seq.png" class="switch-icon"style="height:18px; margin-left:-3px ">
+                        </label>
+
+                        <input id="sankey" name="state-d" type="radio" checked="checked">
+                        <label for="sankey" onclick="">
+                            <img src="../static/img/sankey.png" class="switch-icon" onclick="" style="margin-left:-3px ">
+                        </label>
+
+                        <input id="sum" name="state-d" type="radio">
+                        <label for="sum" onclick="">
+                            <img src="../static/img/sum.png" class="switch-icon" onclick="" style="height:20px; margin-left: -3px">
+                        </label>
+                        <a></a>
+                    </div>
+                </div>
+                <div id="controls">
+                </div>
+                <div id="focal" class="view-body">
+                    <div id="navi"></div>
+                    <div id="mean"></div>
+                    <div id="main"></div>
+                    <div id="simseq" class="inactive"></div>
+                    <!-- <div id="mean"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/echarts/3.2.2/echarts.js"></script>
+    <!-- vendor -->
+    <script src="{{ url_for( 'static', filename='vendor/d3.v5.min.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/jquery.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/d3-tip.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/jquery-ui/jquery-ui.min.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/d3-marcon.min.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/colorbrewer/colorbrewer.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/contextmenu/jquery.contextmenu.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/underscore.js' )}}"></script>
+    <script src="{{ url_for( 'static', filename='vendor/arboreal.js' )}}"></script>
+    <!-- app -->
+    <script src="{{ url_for( 'static', filename='js/util.js' ) }}"></script>
+     <script src="{{ url_for( 'static', filename='js/data.js' ) }}"></script>
+    <!-- app -->
+    <script src="{{ url_for( 'static', filename='js/launcher.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/tsne.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/mainseq.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/meanseq.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/simseq.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/abrecord.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/simlist.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/similarity.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/simsankey.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/controls.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/navi.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/sankey.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/views.js' ) }}"></script>
+    <script src="{{ url_for( 'static', filename='js/driver.js' ) }}"></script>
+</body>
+
+</html>
